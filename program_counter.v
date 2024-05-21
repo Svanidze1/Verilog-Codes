@@ -1,4 +1,4 @@
- module program_counter(input clk , input reset , input [31:0]
+module program_counter(input clk , input reset , input [31:0]  //
                           PCMAX, output reg [31:0] pc = 0);
 
  always @ (posedge clk or negedge reset) begin

@@ -1,4 +1,4 @@
-module gpr(
+module gpr(                //general oorpuse register code
     input clk,
     input write_enable,
     input [4:0] addrA,
